@@ -1,7 +1,7 @@
 /* jshint ignore:start */
 Package.describe({
   name: 'elementrem:web3',
-  version: '0.16.0',
+  version: '0.16.5',
   summary: 'Elementrem JavaScript API, middleware to talk to a elementrem node over RPC',
   git: 'https://github.com/elementrem/elementrem.js',
   // By default, Meteor will default to using README.md for documentation.

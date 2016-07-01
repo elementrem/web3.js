@@ -1,7 +1,7 @@
 {
   "name": "web3",
   "namespace": "elementrem",
-  "version": "0.16.0",
+  "version": "0.16.5",
   "description": "Elementrem JavaScript API, middleware to talk to a elementrem node over RPC",
   "main": "./index.js",
   "directories": {
