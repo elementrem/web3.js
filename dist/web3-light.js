@@ -2453,7 +2453,7 @@ module.exports = {
 
 },{"./sha3.js":19,"bignumber.js":"bignumber.js","utf8":84}],21:[function(require,module,exports){
 module.exports={
-    "version": "0.16.0"
+    "version": "0.16.5"
 }
 
 },{}],22:[function(require,module,exports){
@@ -5448,6 +5448,13 @@ var methods = function () {
         inputFormatter: [formatters.inputAddressFormatter, null, null]
     });
 
+	var unlockAccountAndSendTransaction = new Method({
+		name: 'unlockAccountAndSendTransaction',
+		call: 'personal_signAndSendTransaction',
+		params: 2,
+		inputFormatter: [formatters.inputTransactionFormatter, null]
+	});
+
     var lockAccount = new Method({
         name: 'lockAccount',
         call: 'personal_lockAccount',
@@ -5458,6 +5465,7 @@ var methods = function () {
     return [
         newAccount,
         unlockAccount,
+		unlockAccountAndSendTransaction,
         lockAccount
     ];
 };
