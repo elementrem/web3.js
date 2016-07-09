@@ -2,7 +2,7 @@
 
 web3.js is more comfortable & full feature calling the library that Elementrem JSON RPC.        
 web3.js is very useful when you implement the JavaScript based on Dapp or service.        
-Elementrem Mist Wallet and Block Explorer is also implemented in web3.js.           
+[Elementrem Mist Wallet](https://github.com/elementrem/mist) and [Block Explorer](http://www.elementrem.net) is also implemented in web3.js.           
 
 
 * [web3.js Documentation](web3_document.md)

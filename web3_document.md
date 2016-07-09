@@ -1,4 +1,4 @@
-* [Please note `web3.js` document with the `gele console` commands and instructions.](/go-elementrem/gele_command_readme.md)   
+* [Please note `web3.js` document with the `gele console` commands and instructions.](https://github.com/elementrem/go-elementrem/blob/master/gele_command_readme.md)   
 
 # Web3 JavaScript API
 ## Using callbacks
