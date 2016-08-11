@@ -12,13 +12,13 @@ web3.js is very useful when you implement the JavaScript based on Dapp or servic
 * [Node.js](https://nodejs.org/)    
 Ubuntu, for instance    
 `curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -`  
-`apt-get install -y nodejs`
-`npm install npm -g`      
-`apt install node-gyp`
+`sudo apt-get install -y nodejs`        
+`sudo npm install npm -g`      
+`sudo apt install node-gyp`      
 
 * [bower](https://bower.io/)        
 Ubuntu, for instance    
-`npm install -g bower`
+`sudo npm install -g bower`     
 
 **Install**
 
